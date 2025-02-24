@@ -25,5 +25,5 @@
     }
 
     $pagatitle = "Augļa rediģēšana";
-    require("views/posts/edit.view.php");
+    require("views/fruits/edit.view.php");
 ?>

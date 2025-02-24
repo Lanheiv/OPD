@@ -12,5 +12,5 @@
 
     $posts = $db->query($select , $params)->fetchAll();
 
-    require("views/posts/list.view.php");
+    require("views/fruits/list.view.php");
 ?>

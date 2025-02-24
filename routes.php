@@ -1,9 +1,9 @@
 <?php
     return [
-        "/" => "controllers/posts/list.php",
-        "/create" => "controllers/posts/create.php",
-        "/show" => "controllers/posts/show.php",
-        "/edit" => "controllers/posts/edit.php",
-        "/delete" => "controllers/posts/delete.php"
+        "/" => "controllers/fruits/list.php",
+        "/create" => "controllers/fruits/create.php",
+        "/show" => "controllers/fruits/show.php",
+        "/edit" => "controllers/fruits/edit.php",
+        "/delete" => "controllers/fruits/delete.php"
     ];
 ?>

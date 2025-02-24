@@ -20,5 +20,5 @@
     }
 
     $pagatitle = "Pievienot augli";
-    require("views/posts/create.view.php");
+    require("views/fruits/create.view.php");
 ?>

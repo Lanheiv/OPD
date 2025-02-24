@@ -9,5 +9,5 @@
     }
 
     $pagatitle = "Augļa iestatījumi";
-    require("views/posts/show.view.php");
+    require("views/fruits/show.view.php");
 ?>

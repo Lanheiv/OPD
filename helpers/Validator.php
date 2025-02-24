@@ -10,7 +10,7 @@
         public static function number($value, $min = 1, $max = INF) {
             $value = trim($value); // trim noņematstarpes
 
-            return is_string($value) // pārbauda vai vērtība mainīgajā ir teksts
+            return is_numeric($value) // pārbauda vai vērtība mainīgajā ir teksts
                     && $value >= $min
                     && $value <= $max;
         }
