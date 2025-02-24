@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS fruits;
+
+CREATE DATABASE fruits;
+USE fruits;
+
+CREATE TABLE fruits (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(30)
+);
+
+INSERT INTO fruits (name)
+VALUES
+("Ābols");
+
+SELECT * FROM fruits
